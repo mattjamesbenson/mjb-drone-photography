@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+
+// Colour scheme 1
+$background-black: #000000;
+$background-white: #ffffff;
+$background-light: #bccc9a;
+$background-grey: #a9a9a9;
+$text-light: #ffffff;
+$text-dark: #1c1e17;
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: $text-light;
+
+    .header {
+        min-height: 300px;
+        background-color: $background-light;
+    }
+
+    .footer {
+        min-height: 300px;
+        background-color: $background-light;
+    }
+
+    .content {
+        
+    }
+}
+
+.drone-row {
+    min-height: 500px;
+    margin: 50px;
+    color: $text-dark;
+
+    .drone-copy {
+        padding: 25px;
+    }
+
+    .drone-tablet {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border-radius: 10px;
+        padding: 50px;
+    }
+}
