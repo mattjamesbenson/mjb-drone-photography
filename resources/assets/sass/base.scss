@@ -12,24 +12,40 @@ body {
         min-height: 150px;
         background-color: $primary;
     }
-
-    .content {
-        
-    }
 }
 
 .drone-row {
     min-height: 500px;
-    margin: 100px;
     color: $text-dark;
+    display : flex;
+    align-items : center;
 
     .drone-copy {
-        // padding: 100px;
+        padding: 100px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .drone-tablet-container {
+        padding: 0 50px;
     }
 
     .drone-tablet {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         border-radius: 10px;
-        padding: 100px;
     }
+}
+
+.carousel {
+    .carousel-inner {
+        border-radius: 10px;
+    }
+}
+
+.footer-row {
+    text-align: center;
+    color: $text-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
